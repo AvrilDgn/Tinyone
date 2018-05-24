@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: #010101;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+}
+
+input, button {
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #010101;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #010101;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.header {
+  background-color: #fcdb00;
+  color: #010101;
+  padding-top: 60px;
+  padding-bottom: 107px;
+}
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+}
+.header__logo__text {
+  margin-top: 5px;
+  color: #010101;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.header__menu {
+  margin-top: 12px;
+}
+.header__menu__item a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #010101;
+}
+.header__menu__item a:hover {
+  color: #313841;
+}
+.header__menu__item:not(:first-child) {
+  margin-left: 62px;
+}
+.header__offer {
+  margin-top: 128px;
+}
+.header__offer__intro {
+  width: 310px;
+  margin-top: 20px;
+  color: #313841;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.header__offer__text {
+  width: 400px;
+  margin-top: 18px;
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.header__offer__icons {
+  margin-top: 41px;
+  font-size: 42px;
+  font-weight: 400;
+}
+.header__offer__icons__item:not(:last-child) {
+  margin-right: 38px;
+}
+.header__offer__icons__item a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.header__offer__icons__item a:hover {
+  color: #313841;
+}
+.header__ipad {
+  display: block;
+  margin: 0 auto;
+  margin-top: 61px;
+}
+
+.features {
+  padding-top: 113px;
+  padding-bottom: 164px;
+}
+.features__title {
+  text-align: center;
+}
+.features__title__text {
+  color: #313841;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 740px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.features__item {
+  margin-top: 90px;
+}
+.features__item__icon {
+  margin-right: 34px;
+  font-size: 50px;
+  font-weight: 400;
+}
+.features__item__block__text {
+  margin-top: 16px;
+  width: 206px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #898989;
+}
+
+.touch {
+  background-color: #010101;
+  padding-top: 91px;
+}
+.touch__title {
+  text-align: center;
+}
+.touch__title__main {
+  color: #fcdb00;
+}
+.touch__title__text {
+  color: #898989;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 740px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.touch__form {
+  padding-top: 41px;
+  text-align: center;
+}
+.touch__form__email {
+  width: 580px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #898989;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  margin-right: 21px;
+  padding-left: 24px;
+  outline: none;
+}
+.touch__form__submit {
+  width: 126px;
+  height: 50px;
+  background-color: #fcdb00;
+  border-radius: 5px;
+  color: #010101;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.footer {
+  background-color: #010101;
+  padding-top: 51px;
+  padding-bottom: 103px;
+}
+.footer__credits {
+  text-align: center;
+  width: 183px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .header__logo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__menu {
+    margin-top: 32px;
+  }
+  .header__offer {
+    text-align: center;
+  }
+  .header__offer__intro {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .header__offer__text {
+    width: 100%;
+    margin-top: 28px;
+  }
+  .header__offer__icons {
+    margin-top: 41px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .features__title__text {
+    width: 100%;
+  }
+
+  .touch__title__text {
+    width: 100%;
+  }
+  .touch__form {
+    padding-top: 41px;
+    text-align: center;
+  }
+  .touch__form__email {
+    width: 420px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .features__item {
+    text-align: center;
+  }
+  .features__item__icon {
+    margin-right: 0;
+  }
+  .features__item__block__text {
+    width: 100%;
+  }
+
+  .touch__form__email {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .header__menu__item:not(:first-child) {
+    margin-left: 22px;
+  }
+
+  .touch__form__email {
+    width: 80%;
+  }
+  .touch__form__submit {
+    margin-top: 20px;
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
